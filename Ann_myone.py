@@ -8,7 +8,7 @@ This is a temporary script file.
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-dataset=pd.read_csv('E:\Deep_Learning_A_Z\Volume 1 - Supervised Deep Learning\Part 1 - Artificial Neural Networks (ANN)\Section 4 - Building an ANN\Artificial_Neural_Networks\Churn_Modelling.csv')
+dataset=pd.read_csv('Churn_Modelling.csv')
 X=dataset.iloc[:,3:13].values
 Y=dataset.iloc[:,13].values
 
